@@ -1,0 +1,23 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "no-restricted-properties":"off",
+    "strict": "off",
+    "semi":"off",
+    "quotes":"off",
+    "no-var":"off",
+    "prefer-promise-reject-errors":"off",
+    "object-shorthand":"off",
+    "comma-dangle":"off",
+    "arrow-parens":"off",
+    "space-before-function-paren":"off",
+    "eol-last":"off",
+    "array-bracket-spacing":"off",
+    "no-restricted-imports":"off",
+    "no-duplicate-imports":"off",
+    "target": "es6"
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
